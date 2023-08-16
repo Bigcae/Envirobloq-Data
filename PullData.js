@@ -21,10 +21,10 @@ const { notEqual } = require("assert");
 const { resolve } = require("path");
 
 var con = mysql.createConnection({
-  host: 'Envirobloqdb.clgks69oznpz.us-east-1.rds.amazonaws.com',
-  user: 'ebadmin',
-  password: 'TexasAustin01!',
-  database: 'EnviroBloq'
+  host: 'xxxx.clgks69oznpz.us-east-1.rds.amazonaws.com',
+  user: 'xxxx',
+  password: 'xxxx!',
+  database: 'xxxx'
 });
 
 const cron = require("node-cron");
